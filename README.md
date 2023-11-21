@@ -19,7 +19,7 @@ These robots are build by different individuals. We would like to thank the foll
 - Matthew Elwin
 - Todd Murphey
 
-## SpotMicro
+### SpotMicro
 
 - Deok-yeon Kim
 
