@@ -75,7 +75,7 @@
   <link name="base_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/mainbody.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/mainbody.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="black"/>
       <origin rpy="0 0 0" xyz="-0.045 -0.060 -0.015"/>
@@ -97,7 +97,7 @@
 <!--  <link name="lidar_link">-->
 <!--    <visual>-->
 <!--      <geometry>-->
-<!--        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/rplidar_main.stl" scale="0.001 0.001 0.001"/>-->
+<!--        <mesh filename="stl/rplidar_main.stl" scale="0.001 0.001 0.001"/>-->
 <!--      </geometry>-->
 <!--      <material name="black"/>-->
 <!--      <origin rpy="1.57075 0 0" xyz="-0.06425 0.02885 0"/>-->
@@ -123,7 +123,7 @@
   <link name="chassis_front_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/frontpart.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/frontpart.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="-0.040 -0.060 -0.0140"/>
       <material name="yellow"/>
@@ -146,7 +146,7 @@
   <link name="chassis_rear_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/backpart.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/backpart.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="-0.040 -0.060 -0.0140"/>
       <material name="yellow"/>
@@ -171,7 +171,7 @@
   <link name="front_left_shoulder_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/lshoulder.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/lshoulder.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="-0.135 -0.02 -0.01"/>
       <material name="black"/>
@@ -190,7 +190,7 @@
   <link name="front_left_leg_link_cover">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/larm_cover.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/larm_cover.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="-0.125 0.04 -0.02"/>
       <material name="yellow"/>
@@ -199,7 +199,7 @@
   <link name="front_left_leg_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/larm.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/larm.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="-0.125 0.04 -0.02"/>
       <material name="black"/>
@@ -218,7 +218,7 @@
   <link name="front_left_foot_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/lfoot.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/lfoot.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="-0.120 0.04 0.1"/>
       <material name="black"/>
@@ -237,14 +237,14 @@
   <link name="front_left_toe_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/foot.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/foot.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 -0.40010 0" xyz="0 -0.01 0"/>
       <material name="grey"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/foot.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/foot.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 -0.40010 0" xyz="0 -0.01 0"/>
       <contact_coefficients mu="100.0"/>
@@ -292,7 +292,7 @@
   <link name="front_right_shoulder_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/rshoulder.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/rshoulder.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="-0.135 -0.09 -0.01"/>
       <material name="black"/>
@@ -311,7 +311,7 @@
   <link name="front_right_leg_link_cover">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/rarm_cover.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/rarm_cover.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="-0.125 -0.15 -0.02"/>
       <material name="yellow"/>
@@ -320,7 +320,7 @@
   <link name="front_right_leg_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/rarm.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/rarm.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="-0.125 -0.15 -0.02"/>
       <material name="black"/>
@@ -339,7 +339,7 @@
   <link name="front_right_foot_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/rfoot.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/rfoot.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="-0.120 -0.15 0.1"/>
       <material name="black"/>
@@ -358,14 +358,14 @@
   <link name="front_right_toe_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/foot.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/foot.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 -0.40010 0" xyz="0 -0.01 0"/>
       <material name="grey"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/foot.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/foot.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 -0.40010 0" xyz="0 -0.01 0"/>
       <contact_coefficients mu="100.0"/>
@@ -413,7 +413,7 @@
   <link name="rear_left_shoulder_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/lshoulder.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/lshoulder.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="-0.135 -0.02 -0.01"/>
       <material name="black"/>
@@ -432,7 +432,7 @@
   <link name="rear_left_leg_link_cover">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/larm_cover.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/larm_cover.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="-0.125 0.04 -0.02"/>
       <material name="yellow"/>
@@ -441,7 +441,7 @@
   <link name="rear_left_leg_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/larm.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/larm.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="-0.125 0.04 -0.02"/>
       <material name="black"/>
@@ -460,7 +460,7 @@
   <link name="rear_left_foot_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/lfoot.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/lfoot.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="-0.120 0.04 0.1"/>
       <material name="black"/>
@@ -479,14 +479,14 @@
   <link name="rear_left_toe_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/foot.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/foot.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 -0.40010 0" xyz="0 -0.01 0"/>
       <material name="grey"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/foot.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/foot.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 -0.40010 0" xyz="0 -0.01 0"/>
       <contact_coefficients mu="100.0"/>
@@ -534,7 +534,7 @@
   <link name="rear_right_shoulder_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/rshoulder.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/rshoulder.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="-0.135 -0.09 -0.01"/>
       <material name="black"/>
@@ -553,7 +553,7 @@
   <link name="rear_right_leg_link_cover">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/rarm_cover.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/rarm_cover.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="-0.125 -0.15 -0.02"/>
       <material name="yellow"/>
@@ -562,7 +562,7 @@
   <link name="rear_right_leg_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/rarm.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/rarm.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="-0.125 -0.15 -0.02"/>
       <material name="black"/>
@@ -581,7 +581,7 @@
   <link name="rear_right_foot_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/rfoot.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/rfoot.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 0" xyz="-0.120 -0.15 0.1"/>
       <material name="black"/>
@@ -600,14 +600,14 @@
   <link name="rear_right_toe_link">
     <visual>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/foot.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/foot.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 -0.40010 0" xyz="0 -0.01 0"/>
       <material name="grey"/>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://simulation/robot_lib/Robots/RobotModels/SpotMicro/stl/foot.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="stl/foot.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 -0.40010 0" xyz="0 -0.01 0"/>
       <contact_coefficients mu="100.0"/>
